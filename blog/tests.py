@@ -18,7 +18,7 @@ class BlogTests(TestCase):
         self.post = Post.objects.create(
             author=self.user,
             title='Test title 1',
-            body='Body for test 1'
+            body='Body for test 1')
         
 
     def test_string_representation(self):
