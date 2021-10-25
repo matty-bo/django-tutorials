@@ -102,3 +102,6 @@ GitHub.sublime-settings
 
 #static files
 staticfiles/
+
+#docker
+docker-compose-prod.yml
